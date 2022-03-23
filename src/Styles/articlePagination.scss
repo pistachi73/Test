@@ -1,0 +1,36 @@
+.article-pagination {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    padding: 5px 10px;
+    margin: 0 4px;
+
+    cursor: pointer;
+
+    &:hover {
+      color: blue;
+    }
+  }
+
+  .active {
+    color: blue;
+    &:hover {
+      color: rgb(2, 2, 167);
+    }
+  }
+
+  &_icon-left {
+    margin-right: 0.5em;
+    cursor: pointer;
+  }
+  &_icon-right {
+    margin-left: 0.5em;
+    cursor: pointer;
+  }
+}
